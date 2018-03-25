@@ -14,8 +14,6 @@ footer .social-links {
 
 footer {
     padding-top: 30px;
-    font-size: 14px;
-    text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
