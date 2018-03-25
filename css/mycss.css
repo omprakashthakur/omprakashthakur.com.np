@@ -2,3 +2,28 @@
 footer {
   background: #e0ffe6;
 }
+
+footer .social-links li {
+	display: inline;
+	margin-left: 30px;
+}
+
+footer .social-links {
+    font-size: 30px;
+}
+
+footer {
+    padding-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+	footer .social-links { font-size: 22px; }
+	footer .social-links li { margin-left: 18px; }
+}
+
+@media only screen and (max-width: 480px) {
+	footer .social-links { font-size: 20px; }
+	footer .social-links li { margin-left: 14px; }
+}
