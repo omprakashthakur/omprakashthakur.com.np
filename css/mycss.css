@@ -3,25 +3,48 @@ footer {
   background: #e0ffe6;
 }
 
+/*social links*/
 footer .social-links li {
 	display: inline;
-	margin-left: 30px;
+	margin: 0px 15px 0px 15px;
 }
 
 footer .social-links {
     font-size: 30px;
-}
-
-footer {
-    padding-top: 30px;
+    padding: 0px;
 }
 
 @media only screen and (max-width: 767px) {
 	footer .social-links { font-size: 22px; }
-	footer .social-links li { margin-left: 18px; }
+	footer .social-links li { margin: 0px 9px 0px 9px; }
 }
 
 @media only screen and (max-width: 480px) {
 	footer .social-links { font-size: 20px; }
-	footer .social-links li { margin-left: 14px; }
+	footer .social-links li { margin: 0px 7px 0px 7px; }
+}
+
+/*social link color shows the same color of original*/
+.fb {
+	color: #3b5998;
+}
+
+.tw {
+	color: #1da1f2;
+}
+
+.gp {
+	color: #db4437;
+}
+
+.lk {
+	color: #1883bb;
+}
+
+.ig {
+	color: #e02d71;
+}
+
+.skp {
+	color: #00aff0;
 }
